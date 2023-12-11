@@ -1,7 +1,8 @@
 export default function Navbar() {
     return (
-    //   <div className="bg-gray-800 h-screen w-full style={{ backgroundImage: 'linear-gradient(to bottom, lightblue, darkblue)'">
-        <div>
+      <div className="bg-gray-800">
+       <div>
+    
           <nav className="bg-#14213d p-4">
             <div className="container mx-auto flex justify-between items-center px-20">
             <div className="font-bold text-3xl">
@@ -10,16 +11,16 @@ export default function Navbar() {
 </div>
 
               <div className="space-x-7 flex items-center text-xl">
-                <a href="Home" className="text-white">
+                <a href="/" className="text-white">
                   Home
                 </a>
-                <a href="About" className="text-white">
+                <a href="/about" className="text-white">
                   About
                 </a>
-                <a href="My skills" className="text-white">
+                <a href="/skills" className="text-white">
                   Skills
                 </a>
-                <a href="Projects" className="text-white">
+                <a href="/projects" className="text-white">
                   Projects
                 </a>
               </div>
@@ -29,7 +30,7 @@ export default function Navbar() {
             </div>
           </nav>
         </div>
-    //   </div>
+      </div>
     );
   }
   

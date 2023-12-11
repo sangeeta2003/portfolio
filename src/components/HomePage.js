@@ -1,8 +1,11 @@
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import React from 'react'
 export default function HomePage(){
 
     return(
-        <div className="flex justify-between items-start py-60  px-20 ml-20">
+        // <div className="flex justify-between items-start py-60 px-20 ml-20 bg-gray-800 h-screen w-full" style={{ backgroundImage: 'linear-gradient(to bottom,  #14213d, #03045e)' }}>
+         <div className="h-screen flex justify-between w-full items-start py-60 px-10  bg-gray-800 " style={{ backgroundImage: 'linear-gradient(to bottom,  #14213d, #03045e) ' }}>
+{/* <div className='h-screen bg-gray-800 flex justify-between w-full items-start py-60 px-10 'style={{ backgroundImage: 'linear-gradient(to bottom,  #14213d, #03045e)'}}> */}
             <div className="px-14 mt-10">
                 <h1 className="text-white text-5xl">Hello everyone!</h1>
                 <p className="font-bold text-2xl py-2">
