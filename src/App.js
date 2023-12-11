@@ -1,25 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
+import Navbar from "./components/Navbar";
+import HomePage from "./components/HomePage";
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <div className="bg-gray-800 h-screen w-full" style={{ backgroundImage: 'linear-gradient(to bottom,  #14213d, #03045e)' }}>
+  <Navbar />
+  <HomePage />
+</div>
+
+   
   );
 }
 
-export default App;
+
