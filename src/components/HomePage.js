@@ -1,4 +1,6 @@
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 export default function HomePage(){
+
     return(
         <div className="flex justify-between items-start py-60  px-20 ml-20">
             <div className="px-14 mt-10">
@@ -12,8 +14,14 @@ export default function HomePage(){
             View CV
           </button>
           <button className="bg-gray-800 text-white px-4 py-2 rounded-md">
-            LinkedIn
+            LinkedIn<LinkedInIcon/>
           </button>
+          {/* <button className="bg-yellow-300 text-gray-800 px-4 py-2 rounded-md mr-4">
+            Light Mode
+          </button>
+          <button className="bg-gray-800 text-white px-4 py-2 rounded-md">
+            Dark Mode
+          </button> */}
         </div>    
             </div>
            
