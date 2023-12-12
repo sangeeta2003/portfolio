@@ -26,8 +26,8 @@ export default function Navbar() {
                 </a>
               </div>
               <Link to='/contact'>
-              <button type="text" className="bg-white text-black px-3 py-1 rounded-md mt-4 lg:mt-0 hover:text-slate-800">
-                Contact Me
+             <button type="text" className="bg-white text-black px-3 py-1 rounded-md mt-4 lg:mt-0 hover:text-slate-800">
+                 Contact Me
               </button>
               </Link>
               {/* <button type="text" className="bg-white text-black px-3 py-1 rounded-md mt-4 lg:mt-0 hover:text-slate-800">
