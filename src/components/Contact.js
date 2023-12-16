@@ -65,9 +65,15 @@ export default function Contact(){
                 </div>
                 <div className=' h-3/4 w-3/5 absolute bottom-1 right-1 ml-10 py-14  px-9 ' >
                 <div className='  w-1/2 py-6 pl-0 mt-2 absolute right-12 px-9'>
-                <button type="text" className="bg-yellow-500 text-black px-5 py-1 rounded-md mt-4 lg:mt-0 hover:text-slate-800">
+                <a
+    href="mailto:mishrasangeeta944@gmail.com"  
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <button type="text" className="bg-yellow-500 text-black px-5 py-1 rounded-md mt-4 lg:mt-0 hover:text-slate-800">
                  Send Message
               </button>
+    </a>  
                 </div> 
             </div>    
             </div>
