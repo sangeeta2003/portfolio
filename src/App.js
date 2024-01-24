@@ -6,6 +6,7 @@ import HomePage from './components/HomePage';
 import AboutMe from './components/AboutMe';
 import Skills from './components/Skills';
 import Contact from './components/Contact';
+import Project from './components/Project';
 
 const App = () => {
   return (
@@ -15,7 +16,7 @@ const App = () => {
         <Route path="/" element={<HomePage />} />
         <Route path="/about" element={<AboutMe />} />
         <Route path ="/skills" element={<Skills/>}/>
-        
+        <Route path ="/projects" element={<Project/>}/>
 <Route path="/contact" element={<Contact />} />
 
         {/* Add routes for other pages (Skills, Projects, etc.) */}
